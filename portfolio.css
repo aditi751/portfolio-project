@@ -387,7 +387,7 @@ a{
   }
 
   .project-content-right{ 
-    right:-10%;
+    right:0%;
 
   }
 
@@ -451,11 +451,21 @@ a{
     background-image: url(portfolio-website/images/projects/parallax.png);
   }
   #project3{
-    background-image: url(portfolio-website/images/projects/Project3.png);
+    background-image: url(portfolio-website/images/projects/profile\ card.png);
+    background-position: center;
   }
   #project4{
     margin-left: 120px;
-    background-image: url(portfolio-website/images/projects/Project4.png);
+    background-image: url(portfolio-website/images/projects/image\ gallery.png);
+    background-position: center;
+  }
+  #project5{
+    background-image: url(portfolio-website/images/projects/discord.png);
+  }
+  #project6{
+    margin-left: 120px;
+    background-image: url(portfolio-website/images/projects/tic-tac-toe.png);
+    background-position: center;
   }
 
   @media (max-width:1300px) {
@@ -543,8 +553,8 @@ a{
   font-size:15em;
   font-style:bold;
   color:rgb(231,231,231);
-  bottom:-30%;
-  right:-9%;
+  bottom:-36%;
+  right:-6%;
   user-select:none;
   overflow-y:hidden;
 }
@@ -595,10 +605,16 @@ a{
   margin:15px 0;
 }
 
-.contactus-form-container{
-  width:100%;
-  background-color: rgb(231,231,231);
+z
+
+.list{
+  margin-bottom: 28%;
 }
+
+.list p{
+  margin-top: 30%;
+}
+
 
 .contactus-heading{
   font-size:5em;
@@ -613,10 +629,19 @@ a{
 }
 
 .contactus-form-container{
+  width:100%;
+  background-color: rgb(231,231,231);
   margin-top:25px;
   display:flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.contact-list{
+  display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  margin: 2%;
 }
 
 .form{
@@ -661,6 +686,22 @@ a{
 .submit-icon{
   padding:0 1rem;
   font-size:1.5rem;
+}
+
+.list li {
+  margin-bottom: 12px;
+}
+
+.list li a {
+  display: block;
+  color: var(--second-color);
+  font-size: 14px;
+  transition: all 0.45s ease;
+}
+
+.list li a:hover {
+  color: var(--text-color);
+  transform: translateX(15px);
 }
 
 footer{
