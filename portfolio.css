@@ -467,6 +467,10 @@ a{
     background-image: url(portfolio-website/images/projects/tic-tac-toe.png);
     background-position: center;
   }
+  #project7{
+    background-image: url(portfolio-website/images/projects/mordern\ chair\ project.png);
+    background-position: center;
+  }
 
   @media (max-width:1300px) {
     .page-header {
